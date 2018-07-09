@@ -1,0 +1,64 @@
+html{
+	height:100%;
+	}
+body{
+	padding-top: 70px;
+	height:100%	
+}
+.slide-image{
+	width: 100%;
+}
+.carousel-holder{
+	margin-bottom: 30px;
+}
+.carousel-control,
+.item{
+	border-redius: 4px;
+}
+.caption{
+	height:130px;
+	overflow: hideen;
+}
+.caption h4{
+	white-space: nowrap;
+}
+
+.thumbnail img{
+	width: 100%;
+}
+.rating{
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #d17581;
+}
+.thumbnail .caption-full{
+	padding: 9px;
+	color; #333;
+}
+footer{
+	margin:50px 0;
+}
+
+/*
+custom class
+*/
+.wrapper{	
+	min-height: 100%;
+	position: relative;
+}
+
+.content{
+	padding-bootom: 60px;
+	
+	
+}
+.footer{
+	position: absolute;
+	bootom:15px;
+	height: 60px;
+}
+
+
+
+
+

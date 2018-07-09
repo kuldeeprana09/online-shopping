@@ -15,7 +15,7 @@
 	</properties>
 
 		<!-- JAVA EE API -->
-		<!-- https://mvnrepository.com/artifact/javax/javaee-api -->
+		
 		<dependencies>
 		<dependency>
 			<groupId>javax</groupId>
@@ -33,13 +33,21 @@
 		</dependency>
 		
 		<!--  Spring Web MVC -->
-		<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
 		
+		<!--  JSTL Web MVC -->
+		
+		<dependency>		
+		<groupId>jstl</groupId>
+		<artifactId>jstl</artifactId>
+		<version>1.2</version>
+		
+		
+		</dependency>
 	</dependencies>
 	<build>
 	<plugins>
